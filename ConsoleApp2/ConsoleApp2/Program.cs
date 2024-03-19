@@ -6,12 +6,12 @@ Console.WriteLine("Hellooooooooo 3");
 
 static double AvgFun(int[] array)
 {
-    int suma = 0;
+    int sum = 0;
     foreach (int num in array)
     {
-        suma += num;
+        sum += num;
     }
-    return (double)suma/array.Length;
+    return (double)sum/array.Length;
 }
 
 
