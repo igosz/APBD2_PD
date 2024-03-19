@@ -4,7 +4,7 @@ Console.WriteLine("Hellooooooooo 2");
 Console.WriteLine("Hellooooooooo 3");
 
 
-static double Avg(int[] array)
+static double AvgFun(int[] array)
 {
     int sum = 0;
     foreach (int num in array)
